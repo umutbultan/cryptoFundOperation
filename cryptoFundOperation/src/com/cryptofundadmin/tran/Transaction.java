@@ -8,25 +8,25 @@ import com.cryptofundadmin.def.Market;
 
 public class Transaction {
 	
-	private Long trId;
-	private Date trDate;
+	private Long txId;
+	private Date txDate;
 	private Coin coin;
 	private BigDecimal amount;
 	private BigDecimal price;
-	private Short trType;
+	private Short txType;
 	private Market market;
 	private Commision com;
-	public Long getTrId() {
-		return trId;
+	public Long getTxId() {
+		return txId;
 	}
-	public void setTrId(Long trId) {
-		this.trId = trId;
+	public void setTxId(Long txId) {
+		this.txId = txId;
 	}
-	public Date getTrDate() {
-		return trDate;
+	public Date getTxDate() {
+		return txDate;
 	}
-	public void setTrDate(Date trDate) {
-		this.trDate = trDate;
+	public void setTxDate(Date txDate) {
+		this.txDate = txDate;
 	}
 	public Coin getCoin() {
 		return coin;
@@ -46,11 +46,11 @@ public class Transaction {
 	public void setPrice(BigDecimal price) {
 		this.price = price;
 	}
-	public Short getTrType() {
-		return trType;
+	public Short getTxType() {
+		return txType;
 	}
-	public void setTrType(Short trType) {
-		this.trType = trType;
+	public void setTxType(Short txType) {
+		this.txType = txType;
 	}
 	public Market getMarket() {
 		return market;
