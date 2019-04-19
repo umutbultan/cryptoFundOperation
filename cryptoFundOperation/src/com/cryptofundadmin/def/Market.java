@@ -1,9 +1,12 @@
 package com.cryptofundadmin.def;
 
+import java.util.List;
+
 public class Market {
 
 	private Integer id;
 	private String marketName;
+	private List<Coin> activeCoins;
 	
 	public Integer getId() {
 		return id;
